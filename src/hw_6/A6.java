@@ -13,7 +13,7 @@ class Question {
 	   public Question(String desc) {
 	      this.description = desc;
 	   }
-	   public void print() {
+	   public void print(char[] desc) {
 	      System.out.println(desc);
 	   }      
 	}
